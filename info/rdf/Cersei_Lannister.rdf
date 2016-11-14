@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Cersei_Lannister">
+		<foaf:firstName>Cersei</foaf:firstName>
+		<foaf:lastName>Lannister</foaf:lastName>
+		<foaf:title>Queen Regent</foaf:title>
+		<foaf:gender>female</foaf:gender>
+		<foaf:img rdf:resource="http://walyou.com/wp-content/uploads//2012/02/Cersei-Lannister-e1328687973131.jpg" />
+		<got:alias>The Lioness</got:alias>
+		<got:estado_sentimental>Widower</got:estado_sentimental>
+		<got:color_pelo>Blond</got:color_pelo>
+		<got:estado_fisico>Alive</got:estado_fisico>
+		<got:grupo>
+			<foaf:name>House Lannister</foaf:name>
+			<got:ubicacion>
+				<got:nombre>Casterly Rock</got:nombre>
+				<foaf:based_near geo:lat="-61.15625" geo:long="24"/>
+			</got:ubicacion>
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Margaery_Tyrell.rdf"/>
+	</got:Persona>
+</rdf:RDF>
+			

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Catelyn_Stark">
+				<foaf:firstName>Catelyn</foaf:firstName>
+				<foaf:lastName>Stark</foaf:lastName>
+				<foaf:title>Lady</foaf:title>
+				<foaf:gender>female</foaf:gender>
+				<foaf:img rdf:resource="https://eldemonioblancodelateteraverde.files.wordpress.com/2014/07/catelyn_tully_by_elia_fernandez.jpg" />
+				<got:alias>Lady Stoneheart</got:alias>
+				<got:estado_sentimental>Widower</got:estado_sentimental>
+				<got:color_pelo>Red</got:color_pelo>
+				<got:estado_fisico>Dead</got:estado_fisico>
+				<got:muerte>
+					<got:causa>Throat slit</got:causa>	   
+					<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Black Walder</foaf:firstName>
+							<foaf:lastName>Rivers</foaf:lastName>
+						</got:Persona>
+					</got:responsable>
+				</got:muerte>	
+			<got:grupo>
+				<foaf:name>House Stark</foaf:name>
+				<got:ubicacion>
+					<got:nombre>Winterfell</got:nombre>
+					<foaf:based_near geo:lat="-23.84375" geo:long="37.5"/>
+				</got:ubicacion> 
+			</got:grupo>
+			<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Sansa_Stark.rdf"/>
+	</got:Persona>
+</rdf:RDF>

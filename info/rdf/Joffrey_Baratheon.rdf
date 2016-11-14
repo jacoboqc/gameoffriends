@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Joffrey_Baratheon">
+		<foaf:firstName>Joffrey</foaf:firstName>
+		<foaf:lastName>Baratheon</foaf:lastName>
+		<foaf:title>King of the Andals and the First Men</foaf:title>
+		<foaf:gender>male</foaf:gender>
+		<foaf:img rdf:resource="http://vignette3.wikia.nocookie.net/hieloyfuego/images/c/c7/Joffrey_Baratheon_by_Amoka%C2%A9.jpg/revision/latest?cb=20120617231840" />
+		<got:alias>The False King</got:alias>
+		<got:estado_sentimental>Married</got:estado_sentimental>
+		<got:color_pelo>Blond</got:color_pelo>
+		<got:estado_fisico>Dead</got:estado_fisico>
+		<got:muerte>
+			<got:causa>Poisoned with the strangler at his wedding feast</got:causa>	
+			<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Olenna</foaf:firstName>
+							<foaf:lastName>Tyrell</foaf:lastName>
+						</got:Persona>
+			</got:responsable>			
+		</got:muerte>	
+		<got:grupo>
+			<foaf:name>House Baratheon</foaf:name>
+			<got:ubicacion>
+				<got:nombre>King's Landing</got:nombre>
+				<foaf:based_near geo:lat="-63.96875" geo:long="48.09375"/>
+			</got:ubicacion> 
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Tommen_Baratheon.rdf"/>
+	</got:Persona>
+</rdf:RDF>

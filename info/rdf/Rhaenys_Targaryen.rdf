@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Rhaenys_Targaryen">
+				<foaf:firstName>Rhaenys</foaf:firstName>
+				<foaf:lastName>Targaryen</foaf:lastName>
+				<foaf:title>Princess</foaf:title>
+				<foaf:gender>female</foaf:gender>
+				<foaf:img rdf:resource="http://vignette4.wikia.nocookie.net/hieloyfuego/images/e/e4/Rhaenys_Targaryen_by_Elia_Mervi.jpg" />
+				<got:alias></got:alias>
+				<got:estado_sentimental>Single</got:estado_sentimental>
+				<got:color_pelo>Blond</got:color_pelo>
+				<got:estado_fisico>Dead</got:estado_fisico>
+				<got:muerte>
+					<got:causa>Killed</got:causa>	
+					<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Gregor</foaf:firstName>
+							<foaf:lastName>Clegane</foaf:lastName>
+						</got:Persona>
+					</got:responsable>
+				</got:muerte>
+		<got:grupo>
+			<foaf:name>House Targaryen</foaf:name>
+			<got:ubicacion>
+				<got:nombre>King's Landing</got:nombre>
+				<foaf:based_near geo:lat="-63.96875" geo:long="48.09375"/>				
+			</got:ubicacion> 
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Lyanna_Stark.rdf"/>
+	</got:Persona>
+</rdf:RDF>
+			

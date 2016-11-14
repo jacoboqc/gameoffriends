@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Stannis_Baratheon">
+		<foaf:firstName>Stannis</foaf:firstName>
+		<foaf:lastName>Baratheon</foaf:lastName>
+		<foaf:title>Lord of Dragonstone</foaf:title>
+		<foaf:gender>male</foaf:gender>
+		<foaf:img rdf:resource="http://vignette4.wikia.nocookie.net/hieloyfuego/images/7/77/Stannis_Baratheon_by_Elia_Mervi%C2%A9.jpg/revision/latest?cb=20140702134822" />
+		<got:alias>The Lord's Chosen</got:alias>
+		<got:estado_sentimental>Married</got:estado_sentimental>
+		<got:color_pelo>Black</got:color_pelo>
+		<got:estado_fisico>Dead</got:estado_fisico>
+		<got:muerte>
+			<got:causa>Beheaded</got:causa>	
+			<got:responsable>
+				<got:Persona>
+					<foaf:firstName>Brienne</foaf:firstName>
+					<foaf:lastName>of Tarth</foaf:lastName>
+				</got:Persona>
+			</got:responsable>	
+		</got:muerte>
+		<got:grupo>
+			<foaf:name>House Baratheon</foaf:name>
+			<got:ubicacion>
+				<got:nombre>Dragonstone</got:nombre>
+				<foaf:based_near geo:lat="-59.65625" geo:long="55.75"/>
+			</got:ubicacion>
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Melisandre.rdf"/>
+	</got:Persona>
+</rdf:RDF>

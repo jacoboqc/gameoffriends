@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Drogo">
+		<foaf:firstName>Drogo</foaf:firstName>
+		<foaf:lastName></foaf:lastName>
+		<foaf:title>Khal</foaf:title>
+		<foaf:gender>male</foaf:gender>
+		<foaf:img rdf:resource="http://4.bp.blogspot.com/-wAM2DGtM7FU/TfXCGfuulzI/AAAAAAAAEdc/AsCkoXGvhTk/s1600/khal-drogo....jpg" />
+		<got:alias>The Great Khal</got:alias>
+		<got:estado_sentimental>Married</got:estado_sentimental>
+		<got:color_pelo>Black</got:color_pelo>
+		<got:estado_fisico>Dead</got:estado_fisico>
+		<got:muerte>
+			<got:causa>Smothered after being left in a vegetative state</got:causa>	
+			<got:responsable>
+				<got:Persona>
+					<foaf:firstName>Mirri</foaf:firstName>
+					<foaf:lastName>Maz Duur</foaf:lastName>
+				</got:Persona>
+			</got:responsable>
+		</got:muerte>	
+		<got:grupo>
+			<foaf:name>Dothraki</foaf:name>
+			<got:ubicacion>
+				<got:nombre>Vaes Dothrak</got:nombre>
+				<foaf:based_near geo:lat="-56.1875" geo:long="148.5625"/>
+			</got:ubicacion>
+		</got:grupo>
+		 <rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Daenerys_Targaryen.rdf"/>
+	</got:Persona>
+</rdf:RDF>
+			

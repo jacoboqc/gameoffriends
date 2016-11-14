@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Robert_Baratheon">
+		<foaf:firstName>Robert</foaf:firstName>
+		<foaf:lastName>Baratheon</foaf:lastName>
+		<foaf:title>King of the Andals and the First Men</foaf:title>
+		<foaf:gender>male</foaf:gender>
+		<foaf:img rdf:resource="http://vignette1.wikia.nocookie.net/hieloyfuego/images/1/1e/Robert_Baratheon_by_Amoka%C2%A9.jpg/revision/latest?cb=20120609011844" />
+		<got:alias>The Usurper</got:alias>
+		<got:estado_sentimental>Married</got:estado_sentimental>
+		<got:color_pelo>Black</got:color_pelo>
+		<got:estado_fisico>Dead</got:estado_fisico>
+		<got:muerte>
+			<got:causa>Mortally wounded</got:causa>	
+			<got:responsable>
+				<got:Persona>
+					<foaf:firstName>Cersei</foaf:firstName>
+					<foaf:lastName>Lannister</foaf:lastName>
+				</got:Persona>
+			</got:responsable>
+		</got:muerte>	
+		<got:grupo>
+			<foaf:name>House Baratheon</foaf:name>
+			<got:ubicacion>
+				<got:nombre>Dragonstone</got:nombre>
+				<foaf:based_near geo:lat="-59.65625" geo:long="55.75"/>
+			</got:ubicacion>
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Eddar_Stark.rdf"/>
+	</got:Persona>
+</rdf:RDF>

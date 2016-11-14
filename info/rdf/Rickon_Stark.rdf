@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Rickon_Stark">
+				<foaf:firstName>Rickon</foaf:firstName>
+				<foaf:lastName>Stark</foaf:lastName>
+				<foaf:title>Lady</foaf:title>
+				<foaf:gender>male</foaf:gender>
+				<foaf:img rdf:resource="http://vignette2.wikia.nocookie.net/hieloyfuego/images/6/62/Rickon_Stark_by_Elia_Mervi%C2%A9.jpg" />
+				<got:alias>Little Lord</got:alias>
+				<got:estado_sentimental>Single</got:estado_sentimental>
+				<got:color_pelo>Brown</got:color_pelo>
+				<got:estado_fisico>Dead</got:estado_fisico>
+				<got:muerte>
+					<got:causa>Shot through the back with an arrow</got:causa>
+					<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Ramsay</foaf:firstName>
+							<foaf:lastName>Bolton</foaf:lastName>
+						</got:Persona>
+					</got:responsable>
+				</got:muerte>	
+		<got:grupo>
+			<foaf:name>House Stark</foaf:name>
+			<got:ubicacion>
+				<got:nombre>Winterfell</got:nombre>
+				<foaf:based_near geo:lat="-23.84375" geo:long="37.5"/>
+			</got:ubicacion>
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Bran_Stark.rdf"/>
+	</got:Persona>
+</rdf:RDF>

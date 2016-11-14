@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Brienne_Tarth">
+		<foaf:firstName>Brienne</foaf:firstName>
+		<foaf:lastName>of Tarth</foaf:lastName>
+		<foaf:title>Kingsguard of the Rainbow Guard</foaf:title>
+		<foaf:gender>female</foaf:gender>
+		<foaf:img rdf:resource="http://vignette3.wikia.nocookie.net/hieloyfuego/images/4/44/Brienne_de_Tarth_by_Elia_Mervi%C2%A9.jpg/revision/latest?cb=20120416174452" />
+		<got:alias>Brienne the Beauty</got:alias>
+		<got:estado_sentimental>Single</got:estado_sentimental>
+		<got:color_pelo>Blond</got:color_pelo>
+		<got:estado_fisico>Alive</got:estado_fisico>
+		<got:grupo>
+			<foaf:name>House Tarth</foaf:name>
+			<got:ubicacion>
+				<got:nombre>The Stormlands</got:nombre>
+				<foaf:based_near geo:lat="-71.71875" geo:long="47"/>
+			</got:ubicacion>
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Loras_Tyrell.rdf"/>
+	</got:Persona>
+</rdf:RDF>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Robert_Tyrell">
+				<foaf:firstName>Jon</foaf:firstName>
+				<foaf:lastName>Snow</foaf:lastName>
+				<foaf:title>First Ranger of the Night's Watch</foaf:title>
+				<foaf:gender>male</foaf:gender>
+				<foaf:img rdf:resource="http://vignette3.wikia.nocookie.net/hieloyfuego/images/a/a8/Jon.jpg/revision/latest?cb=20120902143013" />
+				<got:alias>Lord Snow</got:alias> 
+				<got:estado_sentimental>Single</got:estado_sentimental>
+				<got:color_pelo>Brown</got:color_pelo>
+				<got:estado_fisico>Dead</got:estado_fisico>
+				<got:muerte>
+					<got:causa>Stabbed in the abdome</got:causa>	   
+					<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Allister</foaf:firstName>
+							<foaf:lastName>Thorne</foaf:lastName>
+						</got:Persona>
+					</got:responsable>	
+				</got:muerte>
+		<got:grupo>
+			<foaf:name>Night's Watch</foaf:name>
+			<got:ubicacion>
+				<got:nombre>The Wall</got:nombre>
+				<foaf:based_near geo:lat="-7.75" geo:long="44.46875"/>
+			</got:ubicacion>
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Rob_Stark.rdf"/>
+	</got:Persona>
+</rdf:RDF>
+			

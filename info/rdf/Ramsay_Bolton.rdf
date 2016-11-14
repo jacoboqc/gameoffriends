@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Ramsay_Bolton">
+				<foaf:firstName>Ramsay</foaf:firstName>
+				<foaf:lastName>Bolton</foaf:lastName>
+				<foaf:title>Lord Paramount of the North</foaf:title>
+				<foaf:gender>male</foaf:gender>
+				<foaf:img rdf:resource="http://vignette1.wikia.nocookie.net/hieloyfuego/images/f/f1/Ramsay_Bolton_by_Amoka%C2%A9.jpg/revision/latest?cb=20120502201550" />
+				<got:alias>The Bastard of Bolton</got:alias>
+				<got:estado_sentimental>Casado</got:estado_sentimental>
+				<got:color_pelo>Brown</got:color_pelo>
+				<got:estado_fisico>Dead</got:estado_fisico>
+				<got:muerte>
+					<got:causa>Killed</got:causa>	
+					<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Jon</foaf:firstName>
+							<foaf:lastName>Snow</foaf:lastName>
+						</got:Persona>
+					</got:responsable>
+				</got:muerte>
+		<got:grupo>
+			<foaf:name>House Bolton</foaf:name>
+			<got:ubicacion>
+				<got:nombre>The Dreadfort</got:nombre>   
+				<foaf:based_near geo:lat="-21.65625" geo:long="47.59375"/>				
+			</got:ubicacion> 
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Jon_Snow.rdf"/>
+	</got:Persona>
+</rdf:RDF>
+			

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Viserys_Targaryen">
+				<foaf:firstName>Viserys</foaf:firstName>
+				<foaf:lastName>Targaryen</foaf:lastName>
+				<foaf:title>Prince</foaf:title>
+				<foaf:gender>male</foaf:gender>
+				<foaf:img rdf:resource="http://vignette4.wikia.nocookie.net/hieloyfuego/images/2/24/Viserys_Targaryen_by_Amoka%C2%A9.jpg" />
+				<got:alias>The Beggar King</got:alias> 
+				<got:estado_sentimental>Single</got:estado_sentimental>
+				<got:color_pelo>Blond</got:color_pelo>
+				<got:estado_fisico>Dead</got:estado_fisico>
+				<got:muerte>
+					<got:causa>Burned with molten gold</got:causa>	   
+					<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Drogo</foaf:firstName>
+						</got:Persona>
+					</got:responsable>
+				</got:muerte>	
+			<got:grupo>
+				<foaf:name>House Targaryen</foaf:name>
+				<got:ubicacion>
+					<got:nombre>Pentos</got:nombre>
+					<foaf:based_near geo:lat="-64.875" geo:long="69.3125"/>
+			</got:ubicacion>
+			</got:grupo>
+			<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Daenerys_Targaryen.rdf"/>
+	</got:Persona>
+</rdf:RDF>
+			

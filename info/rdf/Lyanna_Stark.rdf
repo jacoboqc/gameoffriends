@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Lyanna_Stark">
+				<foaf:firstName>Lyanna</foaf:firstName>
+				<foaf:lastName>Stark</foaf:lastName>
+				<foaf:title>Prince</foaf:title>
+				<foaf:gender>female</foaf:gender>
+				<foaf:img rdf:resource="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSP45lqgIbZsHwu9TxWDZ-I8oXqEodvBuUWqjmCnLrVxaY8hhl_" />
+				<got:alias></got:alias>
+				<got:estado_sentimental>Single</got:estado_sentimental>
+				<got:color_pelo>Brown</got:color_pelo>
+				<got:estado_fisico>Dead</got:estado_fisico>
+				<got:muerte>
+					<got:causa>Giving birth</got:causa>
+					<got:responsable>
+						<got:Persona>
+							<foaf:firstName>Jon</foaf:firstName>
+							<foaf:lastName>Snow</foaf:lastName>
+						</got:Persona>
+					</got:responsable>	
+				</got:muerte>
+		<got:grupo>
+			<foaf:name>House Stark</foaf:name>
+			<got:ubicacion>
+				<got:nombre>Winterfell</got:nombre>
+				<foaf:based_near geo:lat="-23.84375" geo:long="37.5"/>				
+			</got:ubicacion> 
+		</got:grupo>
+		<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Rhaegar_Targaryen.rdf"/>
+	</got:Persona>
+</rdf:RDF>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rel="http://www.perceive.net/schemas/relationship/" xmlns:got="http://localhost:8080/rdf/ontologia.xml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+	<got:Persona rdf:about="http://hieloyfuego.wikia.com/wiki/Tyrion_Lannister">
+				<foaf:firstName>Tyrion</foaf:firstName>
+				<foaf:lastName>Lannister</foaf:lastName>
+				<foaf:title>Hand of the King</foaf:title>
+				<foaf:gender>male</foaf:gender>
+				<foaf:img rdf:resource="http://vignette1.wikia.nocookie.net/hieloyfuego/images/d/d5/Tyrion_Lannister_by_Elia_Mervi%C2%A9.jpg"/>
+				<got:alias>The Imp</got:alias>
+				<got:estado_sentimental>Married</got:estado_sentimental>
+				<got:color_pelo>Blond</got:color_pelo>
+				<got:estado_fisico>Alive</got:estado_fisico>		
+				<got:grupo>
+					<foaf:name>House Lannister-</foaf:name>
+					<got:ubicacion>
+						<got:nombre>Casterly Rock</got:nombre>
+						<foaf:based_near geo:lat="-61.15625" geo:long="24"/>
+					</got:ubicacion>
+				</got:grupo>
+				<rdfs:seeAlso rdf:resource="http://localhost:8080/rdf/Jaime_Lannister.rdf"/>
+	</got:Persona>
+</rdf:RDF>
